@@ -28,6 +28,7 @@ const Mocked = {
 export const getUserData = async () => {
   // GET https://api.aniapi.com/v1/user/186 con header => Authorization: Bearer <token>
   //El objeto que retorne la API deberá tener la forma exacta del Mocked.User (usando preferiblemente la función map())
+  //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
   return Mocked.User;
 };

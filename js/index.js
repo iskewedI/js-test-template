@@ -18,6 +18,7 @@ const renderAnimeList = animeList => {
             -Un "img", donde su atributo "src" va a ser anime.imageUrl
             -Un "h3", donde su atributo innerText va a ser anime.title
       Utilizar preferiblemente animeList.forEach().
+      https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
     */
 
   //PLUS si terminan todo el test rapido: agregar un h4 que diga "Watched: *watchedEpisodes*"
@@ -28,6 +29,7 @@ const renderTotalEpisodes = animeList => {
 
   /*  Utilizar animeList.reduce para obtener un INT a partir de la iteración
         de un array de objetos que tienen un atributo "watchedEpisodes".
+      https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
    */
 
   Elements.totalEpisodes.innerText = `Total episodes saw: ${episodes}`;
@@ -40,6 +42,8 @@ const App = async () => {
 
   /*   Ordenar array "animeList" de mayor a menor utilizando el atributo "score"
        Utilizar preferentemente método .sort()
+       https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+       https://stackoverflow.com/questions/1069666/sorting-object-property-by-values
   */
   const sortedList = animeList;
 
