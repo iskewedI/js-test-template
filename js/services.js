@@ -33,6 +33,7 @@ export const getUserData = async () => {
 };
 
 export const getUserList = async name => {
+  // Usen iskewed
   // GET https://api.jikan.moe/v3/user/${username}/animelist/all
   //El objeto que retorne la API deberá tener la forma exacta del Mocked.UserList (usando preferiblemente la función map())
 
